@@ -1,0 +1,99 @@
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #232946;
+  background: linear-gradient(180deg, #f5f7ff 0%, #ffffff 100%);
+}
+
+.hero {
+  padding: 4rem 1.5rem;
+  text-align: center;
+  background: radial-gradient(circle at top, rgba(75, 93, 169, 0.14), transparent 38%),
+              linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.75));
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 4vw, 4.5rem);
+  margin-bottom: 0.7rem;
+  color: #1f2648;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: #4f557c;
+  max-width: 720px;
+  margin: 0 auto 1.8rem;
+}
+
+.stats-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+}
+
+.stat-card {
+  padding: 1.4rem;
+  border-radius: 24px;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 20px 50px rgba(108, 121, 171, 0.08);
+  border: 1px solid rgba(70, 87, 150, 0.08);
+}
+
+.stat-card h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.4rem;
+  color: #222a4d;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 2.3rem;
+  color: #2d3a7b;
+  font-weight: 700;
+}
+
+.section-card {
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 32px;
+  background: rgba(255,255,255,0.95);
+  border: 1px solid rgba(100, 112, 180, 0.12);
+  box-shadow: 0 18px 40px rgba(74, 93, 160, 0.06);
+}
+
+.section-card h2 {
+  font-size: 1.55rem;
+  margin-bottom: 1rem;
+}
+
+.section-card p {
+  color: #4c5076;
+  line-height: 1.75;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.4rem;
+  border-radius: 999px;
+  background: #4b5da9;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 16px 30px rgba(75, 93, 169, 0.18);
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: #6c7093;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+}

@@ -1,4 +1,19 @@
-*_files
+# Quarto build artifacts
+*.html
+*.knit.md
+*.utf8.md
+*.qmd.cache
+*.log
+*.aux
+*.out
+*.toc
 
+# Quarto website output folders
+*_files/
+site_libs/
+
+# Quarto cache
 /.quarto/
+
+# Jupyter notebook checkpoints and outputs
 **/*.quarto_ipynb
