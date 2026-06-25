@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NBA Scorigami Observatory",
+    "section": "",
+    "text": "Explore the rare and familiar NBA score combinations from the dataset, then zoom into the patterns behind the numbers.\nView the Score Map"
+  },
+  {
+    "objectID": "index.html#unique-scorelines",
+    "href": "index.html#unique-scorelines",
+    "title": "NBA Scorigami Observatory",
+    "section": "Unique scorelines",
+    "text": "Unique scorelines\n5,119"
+  },
+  {
+    "objectID": "index.html#seasons-covered",
+    "href": "index.html#seasons-covered",
+    "title": "NBA Scorigami Observatory",
+    "section": "Seasons covered",
+    "text": "Seasons covered\n81"
+  },
+  {
+    "objectID": "index.html#median-home-score",
+    "href": "index.html#median-home-score",
+    "title": "NBA Scorigami Observatory",
+    "section": "Median home score",
+    "text": "Median home score\n106"
+  },
+  {
+    "objectID": "index.html#median-away-score",
+    "href": "index.html#median-away-score",
+    "title": "NBA Scorigami Observatory",
+    "section": "Median away score",
+    "text": "Median away score\n102"
+  },
+  {
+    "objectID": "index.html#score-heatmap",
+    "href": "index.html#score-heatmap",
+    "title": "NBA Scorigami Observatory",
+    "section": "Score heatmap",
+    "text": "Score heatmap\nEach colored cell represents how often that exact home/away score pair has occurred in the dataset. Brighter cells mean more common scorelines."
+  },
+  {
+    "objectID": "index.html#insights",
+    "href": "index.html#insights",
+    "title": "NBA Scorigami Observatory",
+    "section": "Insights",
+    "text": "Insights\nWhat stands out is the dense diagonal band: many games are close finishes. Low-scoring games are rare, while the mid-range buckets around 100-120 points dominate. This dashboard surfaces where NBA score combinations cluster and where the league barely visits."
+  }
+]
